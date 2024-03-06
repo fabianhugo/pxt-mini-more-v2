@@ -145,13 +145,13 @@ public:
    * @brief Index of controllabel GPIO pins.
    * 
    */
-  int gpioPin[9] = {0, 1, 2, 8, 12, 13, 14, 15, 16};
+  int gpioPin[9] = {0, 1, 2, 3, 8, 12, 13, 14, 15, 16, 17};
 
   /**
    * @brief Pins which is pull-up at connected.
    * 
    */
-  int initialPullUp[3] = {0, 1, 2};
+  int initialPullUp[3] = {0, 1, 2, 3};
 
   bool touchMode[3] = {false};
 
